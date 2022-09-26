@@ -1,0 +1,729 @@
+.container {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/******************** Header ****/
+.header {
+  margin-bottom: 20px;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+
+    .logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 30px;
+
+      img {
+        margin-right: 5px;
+        height: 25px;
+      }
+
+      a {
+        color: #000;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: 0.03em;
+      }
+    }
+
+    .right-nav {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-link {
+          &:not(:last-child) {
+            margin-right: 65px;
+          }
+
+          a {
+            text-transform: uppercase;
+            color: #242323;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+              color: #909090;
+            }
+          }
+        }
+
+        .right-button {
+          a {
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 33px;
+            text-transform: uppercase;
+            letter-spacing: 0.01em;
+            background: #000000;
+            border-radius: 7px;
+            padding: 0.6em 1em;
+            transition: all 0.2s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+
+/******************** Hero ****/
+.hero-section {
+  overflow-y: hidden;
+
+  .hero-bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f6f5;
+    border-radius: 59px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    .hero-info {
+      width: 40%;
+      padding-left: 80px;
+
+      .hero-title {
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 120px;
+        text-transform: uppercase;
+
+        span {
+          display: block;
+          color: #000000;
+          width: 50%;
+
+          &:nth-child(1) {
+            position: relative;
+            z-index: 10;
+
+            .white-bg {
+              position: absolute;
+              width: 424.74px;
+              height: 110px;
+              top: 0;
+              left: -30px;
+              background: #ffffff;
+              transform: rotate(-2deg);
+              z-index: -10;
+            }
+          }
+
+          &:nth-child(3) {
+            position: relative;
+            z-index: 10;
+
+            .yellow-bg {
+              position: absolute;
+              width: 465.79px;
+              height: 110px;
+              top: 0;
+              left: -20px;
+              background: #ebd96b;
+              transform: rotate(-2deg);
+              z-index: -10;
+            }
+          }
+        }
+      }
+
+      .hero-sub-title {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 48px;
+        letter-spacing: -0.05em;
+        color: #191818;
+        margin-bottom: 34px;
+      }
+
+      .hero-btn {
+        display: flex;
+        align-items: center;
+
+        .btn-icon {
+          margin-right: 20px;
+          width: 20%;
+          img {
+            width: 100%;
+          }
+        }
+
+        a {
+          text-transform: uppercase;
+          color: #ffffff;
+          background: #000000;
+          border-radius: 7px;
+          padding: 1em 1.7em;
+        }
+      }
+    }
+
+    .hero-img {
+      display: flex;
+      align-items: flex-end;
+      width: 60%;
+      position: relative;
+
+      .main-hero-img {
+        width: 95%;
+        background-size: cover;
+        margin-bottom: -85px;
+      }
+
+      .star {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+
+        &:nth-child(2) {
+          top: 0;
+          left: 0;
+        }
+
+        &:nth-child(3) {
+          top: 0;
+          right: 22%;
+        }
+
+        &:nth-child(4) {
+          bottom: -10%;
+          left: 5%;
+        }
+
+        &:nth-child(5) {
+          bottom: 0;
+          right: 7%;
+        }
+      }
+    }
+  }
+}
+
+/******************** Brand ****/
+.brand-section {
+  background-color: #ebd96b;
+  padding: 20px 0;
+  margin: 60px 0;
+
+  .brand-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
+    .brand {
+      width: 150px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/******************** New Arrival ****/
+.new-arrival-section {
+  padding-bottom: 100px;
+
+  .new-arrival-title {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-bottom: 50px;
+    position: relative;
+
+    span {
+      position: absolute;
+      width: 186px;
+      height: 34.94px;
+      top: 20%;
+      left: 10%;
+      z-index: -10;
+      transform: rotate(-2deg);
+    }
+  }
+
+  .new-arrivals-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .new-arrival-items {
+      width: 30%;
+
+      .new-arrival-img {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .new-arrival-info-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .new-arrival-img-title {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 50px;
+          letter-spacing: -0.04em;
+          color: #191919;
+        }
+
+        .new-arrival-info {
+          color: #7f7f7f;
+        }
+
+        a {
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            margin-right: -10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/******************** Payday ****/
+.payday-section {
+  background: rgb(249, 223, 86);
+  background: linear-gradient(
+    -190deg,
+    rgba(249, 223, 86, 1) 0%,
+    rgba(249, 223, 86, 1) 15%,
+    rgba(249, 223, 86, 1) 28%,
+    rgba(209, 179, 18, 1) 100%
+  );
+
+  .payday-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .payday-img {
+      width: 55%;
+      position: relative;
+      overflow-y: hidden;
+
+      img {
+        width: 100%;
+
+        &:nth-child(1) {
+          filter: drop-shadow(50px 10px 30px #896215);
+          margin-bottom: -2px;
+        }
+      }
+
+      .star {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+
+        &:nth-child(2) {
+          top: 15%;
+          left: 5%;
+        }
+
+        &:nth-child(3) {
+          top: 10%;
+          right: 15%;
+        }
+
+        &:nth-child(4) {
+          bottom: 40%;
+          left: 20%;
+        }
+
+        &:nth-child(5) {
+          bottom: 20%;
+          right: 10%;
+        }
+      }
+    }
+
+    .payday-info-box {
+      width: 45%;
+
+      .payday-title {
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 120px;
+        text-transform: uppercase;
+        margin-bottom: 33px;
+
+        span {
+          display: block;
+          color: #000000;
+
+          &:nth-child(1) {
+            position: relative;
+            z-index: 10;
+
+            .white-bg {
+              position: absolute;
+              width: 450px;
+              height: 110px;
+              top: 0;
+              left: -30px;
+              background: #ffffff;
+              transform: rotate(-2deg);
+              z-index: -10;
+            }
+          }
+        }
+      }
+
+      .payday-info {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 48px;
+        letter-spacing: -0.05em;
+        color: #191818;
+        margin-bottom: 34px;
+      }
+
+      p {
+        margin-bottom: 34px;
+
+        .payday-date {
+          display: block;
+          font-weight: 700;
+          font-size: 25px;
+          letter-spacing: 0.02em;
+          color: #000000;
+        }
+
+        .payday-terms-of-conditions {
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 48px;
+          letter-spacing: 0.02em;
+          color: #000000;
+        }
+      }
+
+      .payday-btn {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #ffffff;
+        background: #000000;
+        border-radius: 7px;
+        padding: 0.8em 1.5em;
+      }
+    }
+  }
+}
+
+/******************** Young ****/
+.young-section {
+  padding: 100px 0;
+
+  .young-title {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-bottom: 50px;
+    position: relative;
+
+    span {
+      position: absolute;
+      width: 186px;
+      height: 34.94px;
+      top: 20%;
+      left: 18%;
+      z-index: -10;
+      transform: rotate(-2deg);
+    }
+  }
+
+  .young-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .young-items {
+      width: 48%;
+
+      .young-img {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .young-info-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .young-img-title {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 50px;
+          letter-spacing: -0.04em;
+          color: #191919;
+        }
+
+        .young-info {
+          color: #7f7f7f;
+        }
+
+        a {
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            margin-right: -10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/******************** Download ****/
+.download-section {
+  .download-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .download-info {
+      width: 50%;
+      padding-left: 70px;
+
+      .download-title {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 38px;
+        line-height: 50px;
+        letter-spacing: 0.06em;
+        color: #000000;
+        width: 70%;
+      }
+
+      .download-p {
+        margin: 41px 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        letter-spacing: -0.04em;
+        color: #7c7c7c;
+        width: 70%;
+      }
+
+      .download-store {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 160px;
+
+          &:nth-child(1) {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+
+    .download-img {
+      width: 50%;
+
+      img {
+        width: 80%;
+        margin-left: 40px;
+      }
+    }
+  }
+}
+
+/******************** CTA ****/
+.cta-section {
+  background: rgb(249, 223, 86);
+  background: linear-gradient(
+    -190deg,
+    rgba(249, 223, 86, 1) 0%,
+    rgba(249, 223, 86, 1) 15%,
+    rgba(249, 223, 86, 1) 28%,
+    rgba(209, 179, 18, 1) 100%
+  );
+  padding: 90px 0;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cta-wrapper {
+    width: 60%;
+
+    .cta-title {
+      text-align: center;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 38px;
+      line-height: 50px;
+      letter-spacing: 0.06em;
+      color: #ffffff;
+    }
+
+    .cta-p {
+      color: #ffffff;
+      text-align: center;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 48px;
+      letter-spacing: -0.05em;
+      margin: 41px 0;
+    }
+
+    form {
+      .input-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 0.5em 0.5em 0.5em 0;
+        background: #ffffff;
+        border-radius: 10px;
+        width: 50%;
+        margin: 0 auto;
+
+        input {
+          font-size: 18px;
+          color: #767676;
+          padding-left: 10px;
+          border: 0;
+          outline: 0;
+          width: 85%;
+        }
+
+        .cta-btn {
+          padding: 0.9em 1.5em;
+          cursor: pointer;
+          font-size: 18px;
+          font-weight: 500;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          border: 0;
+          outline: 0;
+          border-radius: 8px;
+          color: #ffffff;
+          background-color: #000000;
+        }
+      }
+    }
+  }
+}
+
+/******************** Footer ****/
+.footer {
+  background-color: #000000;
+  padding: 90px 0;
+
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .left-footer {
+      width: 50%;
+
+      .footer-logo {
+        font-size: 30px;
+        color: #ffffff;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: 0.03em;
+      }
+
+      .left-footer-p {
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #8e8e8e;
+        margin: 20px 0;
+        width: 40%;
+      }
+
+      .footer-social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+
+        .footer-social-item {
+          width: 30%;
+
+          a {
+            img {
+              width: 40px;
+              height: 40px;
+            }
+          }
+        }
+      }
+    }
+
+    .right-footer {
+      display: flex;
+      justify-content: space-between;
+
+      width: 50%;
+
+      .right-footer-item {
+        ul {
+          li {
+            font-size: 18px;
+            line-height: 40px;
+            letter-spacing: 0.02em;
+            color: #8e8e8e;
+
+            &:not(:last-child) {
+              margin-bottom: 30px;
+            }
+
+            &:nth-of-type(1) {
+              color: #d9d9d9;
+            }
+
+            a {
+              font-size: 18px;
+              line-height: 40px;
+              letter-spacing: 0.02em;
+              color: #8e8e8e;
+              transition: all 0.2s ease-in-out;
+
+              &:hover {
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
