@@ -52,7 +52,11 @@
       <div class="container">
         <nav class="nav">
           <div class="logo">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://fashionlandingpage.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="image/logo.png" alt="Fashion logo" />
               Fashion
             </a>
@@ -81,7 +85,37 @@
               </li>
             </ul>
           </div>
+
+          <div class="hamburger-bar">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
         </nav>
+
+        <div class="mobile-menu">
+          <ul>
+            <li class="nav-link">
+              <a href="#">Catalogue</a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">Fashion</a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">Favourite</a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">Lifestyle</a>
+            </li>
+
+            <li class="right-button">
+              <a href="#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -119,11 +153,18 @@
             </div>
 
             <div class="hero-img">
-              <img
-                class="main-hero-img"
-                src="image/hero-img.png"
-                alt="Woman with pink dress."
-              />
+              <picture class="main-hero-img">
+                <img
+                  sizes="(max-width: 1600px) 100vw, 1600px"
+                  srcset="
+                    image/hero-img_w_400.png   400w,
+                    image/hero-img_w_943.png   900w,
+                    image/hero-img_w_1200.png 1200w
+                  "
+                  src="image/hero-img_w_1200.png"
+                  alt="Woman with pink dress."
+                />
+              </picture>
 
               <img class="star" src="image/star.png" alt="Stars" />
               <img class="star" src="image/star.png" alt="Stars" />
@@ -175,11 +216,17 @@
 
           <div class="new-arrivals-wrapper">
             <div class="new-arrival-items">
-              <img
-                src="image/new-arrival-1.jpg"
-                alt="Woman posing with orange hoodie."
-                class="new-arrival-img"
-              />
+              <picture class="new-arrival-img">
+                <img
+                  sizes="(max-width: 484px) 100vw, 484px"
+                  srcset="
+                    image/new-arrival-1_w_400.jpg 400w,
+                    image/new-arrival-1_w_484.jpg 484w
+                  "
+                  src="image/new-arrival-1_w_484.jpg"
+                  alt="Woman posing with orange hoodie."
+                />
+              </picture>
 
               <div class="new-arrival-info-box">
                 <div class="new-arrival-info-wrapper">
@@ -199,11 +246,17 @@
             </div>
 
             <div class="new-arrival-items">
-              <img
-                src="image/new-arrival-2.jpg"
-                alt="Woman posing with light blue sweater on."
-                class="new-arrival-img"
-              />
+              <picture class="new-arrival-img">
+                <img
+                  sizes="(max-width: 484px) 100vw, 484px"
+                  srcset="
+                    image/new-arrival-2_w_400.jpg 400w,
+                    image/new-arrival-2_w_484.jpg 484w
+                  "
+                  src="image/new-arrival-2_w_484.jpg"
+                  alt="Woman posing with light blue sweater on."
+                />
+              </picture>
 
               <div class="new-arrival-info-box">
                 <div class="new-arrival-info-wrapper">
@@ -223,11 +276,17 @@
             </div>
 
             <div class="new-arrival-items">
-              <img
-                src="image/new-arrival-3.jpg"
-                alt="Woman posing with white shirt on."
-                class="new-arrival-img"
-              />
+              <picture class="new-arrival-img">
+                <img
+                  sizes="(max-width: 484px) 100vw, 490px"
+                  srcset="
+                    image/new-arrival-3_w_400.jpg 400w,
+                    image/new-arrival-3_w_490.jpg 490w
+                  "
+                  src="image/new-arrival-3_w_490.jpg"
+                  alt="Woman posing with white shirt on."
+                />
+              </picture>
 
               <div class="new-arrival-info-box">
                 <div class="new-arrival-info-wrapper">
@@ -253,10 +312,19 @@
         <div class="container">
           <div class="payday-wrapper">
             <div class="payday-img">
-              <img
-                src="image/sale-img.png"
-                alt="Woman posing with a yellow shirt on."
-              />
+              <picture>
+                <img
+                  sizes="(max-width: 1200px) 100vw, 1200px"
+                  srcset="
+                    image/sale-img_w_400.png   400w,
+                    image/sale-img_w_672.png   600w,
+                    image/sale-img_w_967.png   900w,
+                    image/sale-img_w_1205.png 1200w
+                  "
+                  src="image/sale-img_w_1205.png"
+                  alt="Woman posing with a yellow shirt on."
+                />
+              </picture>
 
               <img class="star" src="image/star.png" alt="Stars" />
               <img class="star" src="image/star.png" alt="Stars" />
@@ -305,11 +373,18 @@
 
           <div class="young-wrapper">
             <div class="young-items">
-              <img
-                src="image/young-1.jpg"
-                alt="Two women posing glasses on."
-                class="young-img"
-              />
+              <picture class="young-img">
+                <img
+                  sizes="(max-width: 834px) 100vw, 834px"
+                  srcset="
+                    image/young-1_w_400.jpg 400w,
+                    image/young-1_w_753.jpg 600w,
+                    image/young-1_w_834.jpg 900w
+                  "
+                  src="image/young-1_w_834.jpg"
+                  alt="Two women posing glasses on."
+                />
+              </picture>
 
               <div class="young-info-box">
                 <div class="young-info-wrapper">
@@ -329,11 +404,17 @@
             </div>
 
             <div class="young-items">
-              <img
-                src="image/young-2.jpg"
-                alt="Woman posing with white shirt and short jeans on."
-                class="young-img"
-              />
+              <picture class="young-img">
+                <img
+                  sizes="(max-width: 838px) 100vw, 838px"
+                  srcset="
+                    image/young-2_w_400.jpg 400w,
+                    image/young-2_w_801.jpg 900w
+                  "
+                  src="image/young-2_w_838.jpg"
+                  alt="Woman posing with white shirt and short jeans on."
+                />
+              </picture>
 
               <div class="young-info-box">
                 <div class="young-info-wrapper">
@@ -374,7 +455,17 @@
             </div>
 
             <div class="download-img">
-              <img src="image/app-img.png" alt="Fashion app image" />
+              <picture>
+                <img
+                  sizes="(max-width: 671px) 100vw, 671px"
+                  srcset="
+                    image/app-img_w_400.png 400w,
+                    image/app-img_w_535.png 600w
+                  "
+                  src="image/app-img_w_671.png"
+                  alt="Fashion app image"
+                />
+              </picture>
             </div>
           </div>
         </div>
@@ -407,7 +498,7 @@
           <div class="footer-wrapper">
             <div class="left-footer">
               <a
-                href="#"
+                href="https://fashionlandingpage.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="footer-logo"
@@ -520,5 +611,7 @@
         </div>
       </footer>
     </main>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
