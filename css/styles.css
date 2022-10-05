@@ -218,6 +218,7 @@ body {
   overflow-y: hidden;
   position: relative;
   z-index: 0;
+  /* Desktop ***********************/
   /* Laptop ***********************/
   /* iPad/Tablet ***********************/
   /* Phone ***********************/
@@ -336,6 +337,65 @@ body {
   bottom: 0;
   right: 7%;
 }
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  .hero-section .hero-bg {
+    padding: 0;
+  }
+  .hero-section .hero-bg .hero-info {
+    padding-top: 30px;
+    padding-left: 0;
+    padding-top: -20px;
+    width: 45%;
+  }
+  .hero-section .hero-bg .hero-info .hero-title {
+    font-size: 70px;
+    line-height: 115px;
+    padding-left: 40px;
+  }
+  .hero-section .hero-bg .hero-info .hero-title span {
+    width: 100%;
+  }
+  .hero-section .hero-bg .hero-info .hero-title span:nth-child(1) .white-bg {
+    width: 260px;
+    height: 100px;
+    top: 5%;
+    left: -8px;
+  }
+  .hero-section .hero-bg .hero-info .hero-title span:nth-child(3) .yellow-bg {
+    width: 295px;
+    height: 100px;
+    top: 5%;
+    left: -8px;
+  }
+  .hero-section .hero-bg .hero-info .hero-sub-title {
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .hero-section .hero-bg .hero-info .hero-btn {
+    padding: 0.5em 1em;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+  .hero-section .hero-bg .hero-info .hero-btn .btn-icon {
+    width: 30%;
+  }
+  .hero-section .hero-bg .hero-img {
+    width: 55%;
+  }
+  .hero-section .hero-bg .hero-img .main-hero-img {
+    width: 100%;
+  }
+  .hero-section .hero-bg .hero-img .star {
+    width: 35px;
+    height: 35px;
+  }
+  .hero-section .hero-bg .hero-img .star:nth-child(4) {
+    bottom: -5%;
+    left: -2%;
+  }
+}
 @media only screen and (max-width: 1440px) {
   .hero-section .container {
     width: 85%;
@@ -367,6 +427,68 @@ body {
     width: 295px;
     height: 100px;
     top: 5%;
+    left: -8px;
+  }
+  .hero-section .hero-bg .hero-info .hero-sub-title {
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .hero-section .hero-bg .hero-info .hero-btn {
+    padding: 0.5em 1em;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+  .hero-section .hero-bg .hero-info .hero-btn .btn-icon {
+    width: 30%;
+  }
+  .hero-section .hero-bg .hero-img {
+    width: 55%;
+  }
+  .hero-section .hero-bg .hero-img .main-hero-img {
+    width: 100%;
+  }
+  .hero-section .hero-bg .hero-img .star {
+    width: 35px;
+    height: 35px;
+  }
+  .hero-section .hero-bg .hero-img .star:nth-child(4) {
+    bottom: -5%;
+    left: -2%;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1290px) {
+  .hero-section .container {
+    width: 85%;
+  }
+  .hero-section .hero-bg {
+    padding: 0;
+  }
+  .hero-section .hero-bg .hero-info {
+    padding-top: 30px;
+    padding-left: 0;
+    padding-top: -20px;
+    width: 45%;
+  }
+  .hero-section .hero-bg .hero-info .hero-title {
+    font-size: 60px;
+    line-height: 80px;
+    padding-left: 40px;
+  }
+  .hero-section .hero-bg .hero-info .hero-title span {
+    width: 100%;
+  }
+  .hero-section .hero-bg .hero-info .hero-title span:nth-child(1) .white-bg {
+    width: 260px;
+    height: 70px;
+    top: 2%;
+    left: -8px;
+  }
+  .hero-section .hero-bg .hero-info .hero-title span:nth-child(3) .yellow-bg {
+    width: 295px;
+    height: 70px;
+    top: 2%;
     left: -8px;
   }
   .hero-section .hero-bg .hero-info .hero-sub-title {
@@ -470,6 +592,81 @@ body {
     right: 2%;
   }
 }
+@media only screen and (min-width: 601px) and (max-width: 780px) {
+  .hero-section .container {
+    width: 90%;
+  }
+  .hero-section .hero-bg {
+    padding: 0;
+  }
+  .hero-section .hero-bg .hero-info {
+    padding-top: 30px;
+    padding-left: 0;
+    padding-top: -20px;
+    width: 40%;
+  }
+  .hero-section .hero-bg .hero-info .hero-title {
+    font-size: 40px;
+    line-height: 45px;
+    padding-left: 25px;
+  }
+  .hero-section .hero-bg .hero-info .hero-title span {
+    width: 100%;
+  }
+  .hero-section .hero-bg .hero-info .hero-title span:nth-child(1) .white-bg {
+    width: 150px;
+    height: 40px;
+    top: -10%;
+    left: -8px;
+  }
+  .hero-section .hero-bg .hero-info .hero-title span:nth-child(3) .yellow-bg {
+    width: 180px;
+    height: 40px;
+    top: -10%;
+    left: -8px;
+  }
+  .hero-section .hero-bg .hero-info .hero-sub-title {
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .hero-section .hero-bg .hero-info .hero-btn {
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  .hero-section .hero-bg .hero-info .hero-btn .btn-icon {
+    width: 30%;
+  }
+  .hero-section .hero-bg .hero-info .hero-btn a {
+    text-align: center;
+    padding: 0.8em 0.8em;
+  }
+  .hero-section .hero-bg .hero-img {
+    width: 55%;
+  }
+  .hero-section .hero-bg .hero-img .main-hero-img {
+    width: 100%;
+  }
+  .hero-section .hero-bg .hero-img .star {
+    width: 35px;
+    height: 35px;
+  }
+  .hero-section .hero-bg .hero-img .star:nth-child(2) {
+    top: -5%;
+    left: 10%;
+  }
+  .hero-section .hero-bg .hero-img .star:nth-child(3) {
+    right: 40%;
+  }
+  .hero-section .hero-bg .hero-img .star:nth-child(4) {
+    bottom: 35%;
+  }
+  .hero-section .hero-bg .hero-img .star:nth-child(5) {
+    bottom: 0;
+    right: 2%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .hero-section .container {
     width: 90%;
@@ -544,6 +741,7 @@ body {
   }
   .hero-section .hero-bg .hero-info {
     padding-left: 0;
+    padding-top: 25px;
     width: 100%;
     margin-top: 0;
     margin-bottom: 40px;
@@ -574,6 +772,9 @@ body {
   }
   .hero-section .hero-bg .hero-info .hero-btn {
     margin-left: 30px;
+  }
+  .hero-section .hero-bg .hero-info .hero-btn a {
+    padding: 1em 0.7em;
   }
   .hero-section .hero-bg .hero-img {
     width: 100%;
@@ -780,6 +981,18 @@ body {
     width: 90%;
   }
   .new-arrival-section .new-arrivals-wrapper .new-arrival-items .new-arrival-info-box .right-arrow:hover {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 730px) {
+  .new-arrival-section .new-arrivals-wrapper .new-arrival-items:nth-child(1) .new-arrival-info-box .new-arrival-info-wrapper .new-arrival-img-title {
+    word-wrap: break-word;
+    line-height: 25px;
+  }
+  .new-arrival-section .new-arrivals-wrapper .new-arrival-items:nth-child(1) .new-arrival-info-box .right-arrow img {
+    width: 90%;
+  }
+  .new-arrival-section .new-arrivals-wrapper .new-arrival-items:nth-child(1) .new-arrival-info-box .right-arrow:hover {
     margin-right: 0;
   }
 }
@@ -1002,6 +1215,54 @@ body {
     height: 35px;
   }
 }
+@media only screen and (min-width: 901px) and (max-width: 1074px) {
+  .payday-section .container {
+    width: 85%;
+  }
+  .payday-section .payday-wrapper .payday-info-box .payday-title {
+    font-size: 60px;
+    line-height: 65px;
+    padding-left: 40px;
+    margin-bottom: 15px;
+  }
+  .payday-section .payday-wrapper .payday-info-box .payday-title span:nth-child(1) .white-bg {
+    width: 310px;
+    height: 65px;
+    top: -5%;
+    left: -10px;
+  }
+  .payday-section .payday-wrapper .payday-info-box .payday-info {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 40px;
+    margin-bottom: 15px;
+  }
+  .payday-section .payday-wrapper .payday-info-box p {
+    padding-left: 40px;
+    margin-bottom: 15px;
+  }
+  .payday-section .payday-wrapper .payday-info-box p .payday-date {
+    font-size: 20px;
+  }
+  .payday-section .payday-wrapper .payday-info-box p .payday-terms-of-conditions {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .payday-section .payday-wrapper .payday-info-box .payday-btn {
+    margin-left: 40px;
+    padding: 0.5em 1em;
+  }
+  .payday-section .payday-wrapper .payday-img {
+    width: 55%;
+  }
+  .payday-section .payday-wrapper .payday-img picture img {
+    width: 100%;
+  }
+  .payday-section .payday-wrapper .payday-img .star {
+    width: 35px;
+    height: 35px;
+  }
+}
 @media only screen and (max-width: 900px) {
   .payday-section .container {
     width: 90%;
@@ -1010,6 +1271,7 @@ body {
     font-size: 45px;
     line-height: 70px;
     margin-bottom: 0;
+    padding-left: 0;
   }
   .payday-section .payday-wrapper .payday-info-box .payday-title span:nth-child(1) .white-bg {
     width: 250px;
@@ -1025,6 +1287,7 @@ body {
   }
   .payday-section .payday-wrapper .payday-info-box p {
     margin-bottom: 20px;
+    padding-left: 0;
   }
   .payday-section .payday-wrapper .payday-info-box p .payday-date {
     font-size: 20px;
@@ -1035,6 +1298,61 @@ body {
   }
   .payday-section .payday-wrapper .payday-info-box .payday-btn {
     padding: 0.5em 1em;
+    margin-left: 0;
+  }
+  .payday-section .payday-wrapper .payday-img {
+    width: 55%;
+  }
+  .payday-section .payday-wrapper .payday-img picture img {
+    width: 100%;
+  }
+  .payday-section .payday-wrapper .payday-img .star {
+    width: 35px;
+    height: 35px;
+  }
+  .payday-section .payday-wrapper .payday-img .star:nth-child(3) {
+    right: 8%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 781px) {
+  .payday-section .container {
+    width: 90%;
+  }
+  .payday-section .payday-wrapper .payday-info-box {
+    width: 45%;
+  }
+  .payday-section .payday-wrapper .payday-info-box .payday-title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .payday-section .payday-wrapper .payday-info-box .payday-title span:nth-child(1) .white-bg {
+    width: 220px;
+    height: 40px;
+    top: 5%;
+    left: -10px;
+  }
+  .payday-section .payday-wrapper .payday-info-box .payday-info {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .payday-section .payday-wrapper .payday-info-box p {
+    margin-bottom: 20px;
+    padding-left: 0;
+  }
+  .payday-section .payday-wrapper .payday-info-box p .payday-date {
+    font-size: 20px;
+  }
+  .payday-section .payday-wrapper .payday-info-box p .payday-terms-of-conditions {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .payday-section .payday-wrapper .payday-info-box .payday-btn {
+    padding: 0.5em 1em;
+    margin-left: 0;
   }
   .payday-section .payday-wrapper .payday-img {
     width: 55%;
@@ -1104,6 +1422,9 @@ body {
     order: 2;
     width: 100%;
   }
+  .payday-section .payday-wrapper .payday-img img:nth-child(1) {
+    filter: drop-shadow(20px 20px 22px #896215);
+  }
   .payday-section .payday-wrapper .payday-img .star {
     width: 35px;
     height: 35px;
@@ -1164,6 +1485,9 @@ body {
   .payday-section .payday-wrapper .payday-img {
     order: 2;
     width: 100%;
+  }
+  .payday-section .payday-wrapper .payday-img img:nth-child(1) {
+    filter: drop-shadow(20px 20px 22px #896215);
   }
   .payday-section .payday-wrapper .payday-img .star {
     width: 35px;
@@ -1416,6 +1740,20 @@ body {
   .download-section .download-wrapper .download-info .download-p {
     width: 100%;
     margin: 21px 0;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 790px) {
+  .download-section {
+    padding-bottom: 40px;
+  }
+  .download-section .container {
+    width: 90%;
+  }
+  .download-section .download-wrapper .download-info {
+    padding-left: 0;
+  }
+  .download-section .download-wrapper .download-info .download-store img {
+    width: 130px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1748,6 +2086,11 @@ body {
     margin-bottom: 10px;
   }
 }
+@media only screen and (min-width: 901px) and (max-width: 1290px) {
+  .footer .footer-wrapper .left-footer .footer-social {
+    width: 43%;
+  }
+}
 @media only screen and (max-width: 900px) {
   .footer {
     padding: 70px 0;
@@ -1846,7 +2189,7 @@ body {
     line-height: 30px;
   }
   .footer .footer-wrapper .left-footer .footer-social {
-    width: 60%;
+    width: 65%;
   }
   .footer .footer-wrapper .left-footer .footer-social .footer-social-item {
     width: 28%;
